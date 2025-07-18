@@ -11,7 +11,6 @@ vector:
     vector-01:
       ansible_host: 89.169.189.47
       ansible_user: admin
-      ansible_ssh_private_key_file: admin
       ansible_ssh_private_key_file: ~/.ssh/admin
 
 
