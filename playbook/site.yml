@@ -39,7 +39,7 @@
 - name: Install Vector
   hosts: vector-01
   handlers:
-    - name: Start Vector service
+    - name: Start vector service
       become: true
       ansible.builtin.service:
         name: vector
